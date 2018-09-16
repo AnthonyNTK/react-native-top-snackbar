@@ -18,8 +18,9 @@ npm install react-native-top-snackbar --save
 react-native link react-native-top-snackbar
 ```
 
-    #### Manual Link
-    Incase `react-native link` missed something, checking as the following
+3. Manual Link (not essential)
+
+    In case `react-native link` missed something, checking the following
 
     Open android/app/build.gradle, add this line
     ```
@@ -96,3 +97,4 @@ This package makes use of [TSnackBar](https://github.com/AndreiD/TSnackBar) for 
 ## Contribution
 
 Any suggestion and PR is welcome
+# New Document
