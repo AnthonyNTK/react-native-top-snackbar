@@ -97,4 +97,37 @@ This package makes use of [TSnackBar](https://github.com/AndreiD/TSnackBar) for 
 ## Contribution
 
 Any suggestion and PR is welcome
-# New Document
+
+## Q&A / Common Issue
+
+1. Default React Native boilerplate's min SDK is 16, while this package needs 19 as the minimum. You may need to make some change your gradle setting to fit the requirement
+
+  Either specify this in project level gradle like this:
+
+  ```gradle
+  ext {
+      buildToolsVersion = "27.0.3"
+      minSdkVersion = 19      <------
+      compileSdkVersion = 27
+      targetSdkVersion = 27
+      supportLibVersion = "27.1.1"
+  }
+  ```
+
+  Or specify it in app level gradle like this:
+
+  ```gradle
+  defaultConfig {
+      applicationId "com.example"
+      minSdkVersion 19      <------
+      targetSdkVersion 27
+      versionCode 1
+      versionName "1.0"
+  }
+  ```
+
+2. Failed to compile with react-native-top-snackbar
+
+  Please double check all native setting as stated in manual link section. `react-native link` seem to be quite buggy at some time
+
+Open an issue if you need help.
