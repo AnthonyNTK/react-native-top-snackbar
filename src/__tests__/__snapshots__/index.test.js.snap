@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TopSnackbar module calls native with default params 1`] = `
+Array [
+  Array [
+    "Empty String",
+    undefined,
+    "#ffffff",
+    "#2aa2ef",
+    "Done",
+    "#ffffff",
+    null,
+    null,
+    8,
+    null,
+  ],
+]
+`;
+
+exports[`TopSnackbar module calls native with specified params 1`] = `
+Array [
+  Array [
+    "Hello, World!",
+    undefined,
+    "#ffffff",
+    "#f4511e",
+    "Done",
+    "#ffffff",
+    "example",
+    null,
+    5,
+    [Function],
+  ],
+]
+`;

@@ -1,0 +1,57 @@
+{
+  "name": "react-native-top-snackbar",
+  "version": "0.1.0",
+  "description": "A React Native wrapper for TSnackBar",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "flow": "flow src",
+    "lint": "eslint src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnthonyNTK/react-native-top-snackbar"
+  },
+  "files": [
+    "src",
+    "android"
+  ],
+  "keywords": [
+    "react native",
+    "top",
+    "snackbar",
+    "snack",
+    "notification",
+    "toast",
+    "bar"
+  ],
+  "peerDependencies": {
+    "react": ">=15.1 || >=16.0.0-alpha.6",
+    "react-native": ">=0.40"
+  },
+  "devDependencies": {
+    "babel-eslint": "^9.0.0",
+    "babel-jest": "23.4.2",
+    "babel-preset-react-native": "^4.0.0",
+    "eslint": "^5.6.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-flowtype": "^2.50.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-react-native": "^3.3.0",
+    "flow-bin": "^0.81.0",
+    "jest": "23.5.0",
+    "react": "16.4.1",
+    "react-native": "0.55.4"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "author": "AnthonyNTK <anthonyng97921@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AnthonyNTK/react-native-top-snackbar/issues"
+  },
+  "homepage": "https://github.com/AnthonyNTK/react-native-top-snackbar#readme"
+}
